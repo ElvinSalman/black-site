@@ -1,0 +1,65 @@
+footer {
+  background: #0c0b0b;
+}
+
+footer .footer .foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer .foot .foot-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid grey;
+}
+
+footer .footer .foot .foot-1 .first {
+  margin-left: 3%;
+}
+
+footer .footer .foot .foot-1 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: #999;
+  margin-top: 1%;
+}
+
+footer .footer .foot .foot-1 a img {
+  width: 15%;
+  height: 27px;
+  margin-top: 1%;
+}
+
+footer .footer .foot .foot-1 a p {
+  font-size: 15px;
+  margin-top: 1.5%;
+  margin-left: 4%;
+}
+
+footer .footer .foot .foot-1 a p:hover {
+  color: #b8913f;
+}
+
+footer .footer .foot .foot-2 {
+  text-align: center;
+}
+
+footer .footer .foot .foot-2 p {
+  font-size: 13px;
+  color: #999;
+  line-height: 1.4;
+  font-style: italic;
+}
+
+footer .footer .foot .foot-2 a {
+  color: #b8913f;
+}
+
+footer .footer .foot .foot-2 a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=footer.css.map */

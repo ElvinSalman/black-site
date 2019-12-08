@@ -1,0 +1,141 @@
+.toggleMenu {
+  display: none;
+}
+
+label.toggleMenu {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  width: 100%;
+  display: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+}
+
+@media screen and (max-width: 800px) {
+  body .head .head-row {
+    width: 740px;
+  }
+  body .head .head-row .head-col-1 {
+    width: 100%;
+  }
+  body .head .head-row .head-col-1 a {
+    height: 150px;
+  }
+  body .head .head-row .head-col-1 a .new:before {
+    height: 0;
+  }
+  body .head .head-row .head-col-1 a .new:after {
+    height: 0;
+  }
+  body .head .head-row .head-col-1 a .new-1:before {
+    height: 0;
+  }
+  body .head .head-row .head-col-1 a .new-1:after {
+    height: 0;
+  }
+  body .head .head-row .head-col-1 a img {
+    height: 150px;
+  }
+  body .head .head-row .head-col-2 {
+    width: 100%;
+  }
+  body .head .head-row .head-col-2 a {
+    height: 150px;
+  }
+  body .head .head-row .head-col-2 a .new:before {
+    height: 0;
+  }
+  body .head .head-row .head-col-2 a .new:after {
+    height: 0;
+  }
+  body .head .head-row .head-col-2 a .new-1:before {
+    height: 0;
+  }
+  body .head .head-row .head-col-2 a .new-1:after {
+    height: 0;
+  }
+  body .head .head-row .head-col-2 a img {
+    height: 150px;
+  }
+  header {
+    width: 730px;
+  }
+  header .header {
+    width: 100%;
+  }
+  header .header .head-row {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .header .head-row .first {
+    width: 20%;
+  }
+  header .header .head-row .first label.toggleMenu {
+    display: block;
+  }
+  header .header .head-row .first nav {
+    display: none;
+    background-color: #0f0f0f;
+  }
+  header .header .head-row .first nav .hi {
+    display: block;
+  }
+  header .header .head-row .first nav .hi li {
+    width: 90%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    font-size: 20px;
+  }
+  header .header .head-row .first input.toggleMenu:checked + Label.toggleMenu {
+    background: #05051f;
+    color: white;
+  }
+  header .header .head-row .first input.toggleMenu:checked ~ nav {
+    display: block;
+  }
+  header .header .head-row .second {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 80%;
+  }
+  header .header .head-row .second .first-logo {
+    margin-left: 40%;
+  }
+  header .header .head-row .second a {
+    margin-top: 1%;
+    margin-right: 5%;
+  }
+  section .section-1 {
+    width: 730px;
+  }
+  section .section-Words {
+    width: 100%;
+  }
+  section .section-Words .p {
+    width: 150%;
+    margin-left: -5%;
+  }
+  section .section-Words .p p {
+    font-size: 25px;
+    -webkit-transform: translateY(95%);
+            transform: translateY(95%);
+  }
+  section .section-2 {
+    width: 730px;
+    margin-top: 20%;
+  }
+  section .section-2 .sect-2 {
+    display: block;
+  }
+  footer {
+    width: 730px;
+    margin-top: 2%;
+  }
+}
+/*# sourceMappingURL=media-iphone-7.css.map */

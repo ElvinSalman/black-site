@@ -1,0 +1,195 @@
+.toggleMenu {
+    display: none;
+}
+
+label.toggleMenu {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    width: 100%;
+    display: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+}
+
+@media screen and (max-width:800px) {
+
+
+
+    body {
+        .head {
+            .head-row {
+                width: 740px;
+
+                .head-col-1 {
+                    width: 100%;
+
+                    a {
+                        height: 150px;
+
+                        .new {
+                            &:before {
+                                height: 0;
+                            }
+                            &:after{
+                                height: 0;
+                            }
+                        }
+                        .new-1 {
+                            &:before {
+                                height: 0;
+                            }
+                            &:after{
+                                height: 0;
+                            }
+                        }
+
+
+                        img {
+
+                            height: 150px;
+                        }
+                    }
+                }
+
+                .head-col-2 {
+
+                    width: 100%;
+
+                    a {
+                        height: 150px;
+
+                        .new {
+                            &:before {
+                                height: 0;
+                            }
+                            &:after{
+                                height: 0;
+                            }
+                        }
+                        .new-1 {
+                            &:before {
+                                height: 0;
+                            }
+                            &:after{
+                                height: 0;
+                            }
+                        }
+
+                        img {
+
+                            height: 150px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    header {
+        width: 730px;
+
+        .header {
+            width: 100%;
+
+            .head-row {
+                width: 100%;
+                display: flex;
+
+                .first {
+                    width: 20%;
+
+                    label.toggleMenu {
+                        display: block;
+                    }
+
+                    nav {
+                        display: none;
+                        background-color: rgb(15, 15, 15);
+
+                        .hi {
+                            display: block;
+
+                            li {
+                                width: 90%;
+                                margin-bottom: 10%;
+                                margin-left: 20%;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+
+                    input.toggleMenu:checked+Label.toggleMenu {
+                        background: rgb(5, 5, 31);
+                        color: white;
+                    }
+
+                    input.toggleMenu:checked~nav {
+                        display: block;
+
+                    }
+
+                }
+
+                .second {
+                    justify-content: center;
+                    width: 80%;
+
+                    .first-logo {
+                        margin-left: 40%;
+                    }
+
+                    a {
+                        margin-top: 1%;
+                        margin-right: 5%;
+
+                        img {
+                            //    can not change width ing
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    section {
+        .section-1 {
+            width: 730px;
+        }
+
+        .section-Words {
+            width: 100%;
+
+            .p {
+                width: 150%;
+                margin-left: -5%;
+
+                p {
+                    font-size: 25px;
+                    transform: translateY(95%);
+                }
+            }
+        }
+
+        .section-2 {
+            width: 730px;
+            margin-top: 20%;
+
+            .sect-2 {
+                display: block;
+
+
+
+            }
+        }
+    }
+
+    footer {
+        width: 730px;
+        margin-top: 2%;
+    }
+
+
+}
